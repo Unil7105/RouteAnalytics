@@ -23,7 +23,7 @@ def index():
                         date_dict[date] = []
                     date_dict[date].append(obj["activitySegment"])
                     
-        return render_template("./index.html")
+        return render_template("./Templates/index.html")
     except Exception as e:
         return str(e)
 
